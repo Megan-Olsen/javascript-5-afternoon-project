@@ -64,7 +64,7 @@ callJake('435-555-9248')
 
 //Code Here
 function makeCounter() {
-  var num = 0
+  let num = 0
   return function () {
     return ++num
   }
@@ -72,7 +72,7 @@ function makeCounter() {
 
 
 //Uncomment this once you make your function
-  var count = makeCounter();
+  let count = makeCounter();
   count(); // 1
   count(); // 2
   count(); // 3
